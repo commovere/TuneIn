@@ -8,17 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		9BBF6AB42956293D005D4955 /* TuneInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AB32956293D005D4955 /* TuneInApp.swift */; };
-		9BBF6AB62956293D005D4955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AB52956293D005D4955 /* ContentView.swift */; };
+		9BBF6AB62956293D005D4955 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AB52956293D005D4955 /* MainScreenView.swift */; };
 		9BBF6AB829562940005D4955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBF6AB729562940005D4955 /* Assets.xcassets */; };
 		9BBF6ABB29562940005D4955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBF6ABA29562940005D4955 /* Preview Assets.xcassets */; };
+		9BBF6AC829562B90005D4955 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9BBF6AC729562B90005D4955 /* Alamofire */; };
+		9BBF6ACA29562BAC005D4955 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AC929562BAC005D4955 /* Networking.swift */; };
+		9BBF6ACF29562DEA005D4955 /* CommonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6ACE29562DEA005D4955 /* CommonResponse.swift */; };
+		9BBF6AD129562F71005D4955 /* AnyElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AD029562F71005D4955 /* AnyElementModel.swift */; };
+		9BBF6AD4295630CF005D4955 /* LinkElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AD3295630CF005D4955 /* LinkElementModel.swift */; };
+		9BBF6AD629563253005D4955 /* AudioElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AD529563253005D4955 /* AudioElementModel.swift */; };
+		9BBF6AD82956332F005D4955 /* SectionElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AD72956332F005D4955 /* SectionElementModel.swift */; };
+		9BBF6ADA295633C5005D4955 /* UnknownElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AD9295633C5005D4955 /* UnknownElementModel.swift */; };
+		9BBF6ADD29563499005D4955 /* CommonElementModel+AnyElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6ADC29563499005D4955 /* CommonElementModel+AnyElementModel.swift */; };
+		9BBF6AE029563B06005D4955 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6ADF29563B06005D4955 /* AppConfig.swift */; };
+		9BBF6AE329563DC8005D4955 /* MainScreenView+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AE229563DC8005D4955 /* MainScreenView+Observable.swift */; };
+		9BBF6AE629563FF0005D4955 /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AE529563FF0005D4955 /* TopMenuView.swift */; };
+		9BBF6AE82956419C005D4955 /* TopMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AE72956419C005D4955 /* TopMenuItem.swift */; };
+		9BBF6AEC295650CA005D4955 /* ListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AEB295650CA005D4955 /* ListScreenView.swift */; };
+		9BBF6AF0295651B7005D4955 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AEF295651B7005D4955 /* ListRowView.swift */; };
+		9BBF6AF2295656AB005D4955 /* AudioListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AF1295656AB005D4955 /* AudioListRow.swift */; };
+		9BBF6AF4295657DB005D4955 /* LinkListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AF3295657DB005D4955 /* LinkListRow.swift */; };
+		9BBF6AF829565E96005D4955 /* AudioDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AF729565E96005D4955 /* AudioDetailsScreen.swift */; };
+		9BBF6AFB295660D5005D4955 /* LinkDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AFA295660D5005D4955 /* LinkDetailsScreen.swift */; };
+		9BBF6AFD29566109005D4955 /* LinkDetailsScreen+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6AFC29566109005D4955 /* LinkDetailsScreen+Observable.swift */; };
+		9BBF6B0129570682005D4955 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF6B0029570682005D4955 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BBF6AB02956293D005D4955 /* TuneIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBF6AB32956293D005D4955 /* TuneInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneInApp.swift; sourceTree = "<group>"; };
-		9BBF6AB52956293D005D4955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BBF6AB52956293D005D4955 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		9BBF6AB729562940005D4955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BBF6ABA29562940005D4955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BBF6AC929562BAC005D4955 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		9BBF6ACE29562DEA005D4955 /* CommonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonResponse.swift; sourceTree = "<group>"; };
+		9BBF6AD029562F71005D4955 /* AnyElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyElementModel.swift; sourceTree = "<group>"; };
+		9BBF6AD3295630CF005D4955 /* LinkElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkElementModel.swift; sourceTree = "<group>"; };
+		9BBF6AD529563253005D4955 /* AudioElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioElementModel.swift; sourceTree = "<group>"; };
+		9BBF6AD72956332F005D4955 /* SectionElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionElementModel.swift; sourceTree = "<group>"; };
+		9BBF6AD9295633C5005D4955 /* UnknownElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownElementModel.swift; sourceTree = "<group>"; };
+		9BBF6ADC29563499005D4955 /* CommonElementModel+AnyElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommonElementModel+AnyElementModel.swift"; sourceTree = "<group>"; };
+		9BBF6ADF29563B06005D4955 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		9BBF6AE129563B74005D4955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9BBF6AE229563DC8005D4955 /* MainScreenView+Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainScreenView+Observable.swift"; sourceTree = "<group>"; };
+		9BBF6AE529563FF0005D4955 /* TopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
+		9BBF6AE72956419C005D4955 /* TopMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuItem.swift; sourceTree = "<group>"; };
+		9BBF6AEB295650CA005D4955 /* ListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreenView.swift; sourceTree = "<group>"; };
+		9BBF6AEF295651B7005D4955 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		9BBF6AF1295656AB005D4955 /* AudioListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListRow.swift; sourceTree = "<group>"; };
+		9BBF6AF3295657DB005D4955 /* LinkListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkListRow.swift; sourceTree = "<group>"; };
+		9BBF6AF729565E96005D4955 /* AudioDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDetailsScreen.swift; sourceTree = "<group>"; };
+		9BBF6AFA295660D5005D4955 /* LinkDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDetailsScreen.swift; sourceTree = "<group>"; };
+		9BBF6AFC29566109005D4955 /* LinkDetailsScreen+Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkDetailsScreen+Observable.swift"; sourceTree = "<group>"; };
+		9BBF6B0029570682005D4955 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBF6AC829562B90005D4955 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +94,12 @@
 		9BBF6AB22956293D005D4955 /* TuneIn */ = {
 			isa = PBXGroup;
 			children = (
+				9BBF6AE129563B74005D4955 /* Info.plist */,
+				9BBF6ADE29563AEA005D4955 /* Configs */,
+				9BBF6ACB29562CFF005D4955 /* DataTypes */,
+				9BBF6AC529562B57005D4955 /* Services */,
+				9BBF6AC12956295B005D4955 /* Screens */,
 				9BBF6AB32956293D005D4955 /* TuneInApp.swift */,
-				9BBF6AB52956293D005D4955 /* ContentView.swift */,
 				9BBF6AB729562940005D4955 /* Assets.xcassets */,
 				9BBF6AB929562940005D4955 /* Preview Content */,
 			);
@@ -65,6 +112,119 @@
 				9BBF6ABA29562940005D4955 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BBF6AC12956295B005D4955 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AF92956609D005D4955 /* LinkDetails */,
+				9BBF6AF629565E68005D4955 /* AudioDetails */,
+				9BBF6AEA2956508E005D4955 /* ListScreen */,
+				9BBF6AC429562B2F005D4955 /* MainScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9BBF6AC429562B2F005D4955 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AE429563FCE005D4955 /* TopMenu */,
+				9BBF6AB52956293D005D4955 /* MainScreenView.swift */,
+				9BBF6AE229563DC8005D4955 /* MainScreenView+Observable.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		9BBF6AC529562B57005D4955 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AC929562BAC005D4955 /* Networking.swift */,
+				9BBF6B0029570682005D4955 /* AudioPlayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9BBF6ACB29562CFF005D4955 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AD2295630A6005D4955 /* BodyElement */,
+				9BBF6ADB2956345D005D4955 /* CommonResponse */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		9BBF6AD2295630A6005D4955 /* BodyElement */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AD029562F71005D4955 /* AnyElementModel.swift */,
+				9BBF6AD529563253005D4955 /* AudioElementModel.swift */,
+				9BBF6AD3295630CF005D4955 /* LinkElementModel.swift */,
+				9BBF6AD72956332F005D4955 /* SectionElementModel.swift */,
+				9BBF6AD9295633C5005D4955 /* UnknownElementModel.swift */,
+			);
+			path = BodyElement;
+			sourceTree = "<group>";
+		};
+		9BBF6ADB2956345D005D4955 /* CommonResponse */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6ACE29562DEA005D4955 /* CommonResponse.swift */,
+				9BBF6ADC29563499005D4955 /* CommonElementModel+AnyElementModel.swift */,
+			);
+			path = CommonResponse;
+			sourceTree = "<group>";
+		};
+		9BBF6ADE29563AEA005D4955 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6ADF29563B06005D4955 /* AppConfig.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		9BBF6AE429563FCE005D4955 /* TopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AE529563FF0005D4955 /* TopMenuView.swift */,
+				9BBF6AE72956419C005D4955 /* TopMenuItem.swift */,
+			);
+			path = TopMenu;
+			sourceTree = "<group>";
+		};
+		9BBF6AEA2956508E005D4955 /* ListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AF5295658DC005D4955 /* ListRow */,
+				9BBF6AEB295650CA005D4955 /* ListScreenView.swift */,
+			);
+			path = ListScreen;
+			sourceTree = "<group>";
+		};
+		9BBF6AF5295658DC005D4955 /* ListRow */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AEF295651B7005D4955 /* ListRowView.swift */,
+				9BBF6AF1295656AB005D4955 /* AudioListRow.swift */,
+				9BBF6AF3295657DB005D4955 /* LinkListRow.swift */,
+			);
+			path = ListRow;
+			sourceTree = "<group>";
+		};
+		9BBF6AF629565E68005D4955 /* AudioDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AF729565E96005D4955 /* AudioDetailsScreen.swift */,
+			);
+			path = AudioDetails;
+			sourceTree = "<group>";
+		};
+		9BBF6AF92956609D005D4955 /* LinkDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF6AFA295660D5005D4955 /* LinkDetailsScreen.swift */,
+				9BBF6AFC29566109005D4955 /* LinkDetailsScreen+Observable.swift */,
+			);
+			path = LinkDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +243,9 @@
 			dependencies = (
 			);
 			name = TuneIn;
+			packageProductDependencies = (
+				9BBF6AC729562B90005D4955 /* Alamofire */,
+			);
 			productName = TuneIn;
 			productReference = 9BBF6AB02956293D005D4955 /* TuneIn.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +274,9 @@
 				Base,
 			);
 			mainGroup = 9BBF6AA72956293D005D4955;
+			packageReferences = (
+				9BBF6AC629562B90005D4955 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 9BBF6AB12956293D005D4955 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +303,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BBF6AB62956293D005D4955 /* ContentView.swift in Sources */,
+				9BBF6ACA29562BAC005D4955 /* Networking.swift in Sources */,
+				9BBF6AE82956419C005D4955 /* TopMenuItem.swift in Sources */,
+				9BBF6AF829565E96005D4955 /* AudioDetailsScreen.swift in Sources */,
+				9BBF6AF2295656AB005D4955 /* AudioListRow.swift in Sources */,
+				9BBF6AD129562F71005D4955 /* AnyElementModel.swift in Sources */,
+				9BBF6AE029563B06005D4955 /* AppConfig.swift in Sources */,
+				9BBF6AFB295660D5005D4955 /* LinkDetailsScreen.swift in Sources */,
+				9BBF6ADD29563499005D4955 /* CommonElementModel+AnyElementModel.swift in Sources */,
+				9BBF6AB62956293D005D4955 /* MainScreenView.swift in Sources */,
+				9BBF6AE329563DC8005D4955 /* MainScreenView+Observable.swift in Sources */,
+				9BBF6AD629563253005D4955 /* AudioElementModel.swift in Sources */,
+				9BBF6AE629563FF0005D4955 /* TopMenuView.swift in Sources */,
+				9BBF6AEC295650CA005D4955 /* ListScreenView.swift in Sources */,
+				9BBF6B0129570682005D4955 /* AudioPlayer.swift in Sources */,
+				9BBF6AD82956332F005D4955 /* SectionElementModel.swift in Sources */,
+				9BBF6AF0295651B7005D4955 /* ListRowView.swift in Sources */,
+				9BBF6AFD29566109005D4955 /* LinkDetailsScreen+Observable.swift in Sources */,
+				9BBF6ADA295633C5005D4955 /* UnknownElementModel.swift in Sources */,
+				9BBF6ACF29562DEA005D4955 /* CommonResponse.swift in Sources */,
+				9BBF6AD4295630CF005D4955 /* LinkElementModel.swift in Sources */,
+				9BBF6AF4295657DB005D4955 /* LinkListRow.swift in Sources */,
 				9BBF6AB42956293D005D4955 /* TuneInApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +455,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TuneIn/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuneIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,9 +485,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TuneIn/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuneIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +527,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BBF6AC629562B90005D4955 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BBF6AC729562B90005D4955 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BBF6AC629562B90005D4955 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9BBF6AA82956293D005D4955 /* Project object */;
 }
